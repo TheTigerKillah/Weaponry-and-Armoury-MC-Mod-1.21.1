@@ -52,6 +52,7 @@ public class Weaponry_Armoury {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DiamondClusteredIngot);
+            event.accept(ModItems.DiamondIronIngot);
         }
     }
 

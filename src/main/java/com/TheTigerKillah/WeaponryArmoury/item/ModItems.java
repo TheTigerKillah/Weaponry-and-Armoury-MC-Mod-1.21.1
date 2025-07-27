@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> DiamondClusteredIngot = ITEMS.register("diamondclusteredingot",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DiamondIronIngot = ITEMS.register("diamondironingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

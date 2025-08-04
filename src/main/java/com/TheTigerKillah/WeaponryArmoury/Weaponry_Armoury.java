@@ -55,6 +55,7 @@ public class Weaponry_Armoury {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DiamondClusteredIngot);
             event.accept(ModItems.DiamondIronIngot);
+            event.accept(ModItems.GildedNetheriteIngot);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

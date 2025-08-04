@@ -1,5 +1,6 @@
 package com.TheTigerKillah.WeaponryArmoury;
 
+import com.TheTigerKillah.WeaponryArmoury.block.ModBlocks;
 import com.TheTigerKillah.WeaponryArmoury.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -36,6 +37,7 @@ public class Weaponry_Armoury {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -53,6 +55,10 @@ public class Weaponry_Armoury {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DiamondClusteredIngot);
             event.accept(ModItems.DiamondIronIngot);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.DiamondIronBlock);
         }
     }
 

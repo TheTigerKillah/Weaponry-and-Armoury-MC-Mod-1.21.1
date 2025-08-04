@@ -1,4 +1,6 @@
 {
   "item.weaponryarmourymod.diamondclusteredingot": "Diamond-clustered iron ingot",
-  "item.weaponryarmourymod.diamondironingot": "Diamond-Iron ingot"
+  "item.weaponryarmourymod.diamondironingot": "Diamond-Iron ingot",
+
+  "block.weaponryarmourymod.diamond_iron_block": "Block of Diamond-Iron"
 }

@@ -60,6 +60,7 @@ public class Weaponry_Armoury {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.DiamondIronBlock);
+            event.accept(ModBlocks.GildedNetheriteBlock);
         }
     }
 

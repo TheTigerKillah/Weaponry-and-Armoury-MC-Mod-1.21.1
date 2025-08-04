@@ -1,7 +1,8 @@
 {
-  "item.weaponryarmourymod.diamondclusteredingot": "Diamond-clustered iron ingot",
-  "item.weaponryarmourymod.diamondironingot": "Diamond-Iron ingot",
-  "item.weaponryarmourymod.gilded_netherite_ingot": "Gilded Netherite ingot",
+  "item.weaponryarmourymod.diamondclusteredingot": "Diamond-clustered Iron Ingot",
+  "item.weaponryarmourymod.diamondironingot": "Diamond-Iron Ingot",
+  "item.weaponryarmourymod.gilded_netherite_ingot": "Gilded Netherite Ingot",
 
-  "block.weaponryarmourymod.diamond_iron_block": "Block of Diamond-Iron"
+  "block.weaponryarmourymod.diamond_iron_block": "Diamond-Iron Block",
+  "block.weaponryarmourymod.gilded_netherite_block": "Gilded Netherite Block"
 }

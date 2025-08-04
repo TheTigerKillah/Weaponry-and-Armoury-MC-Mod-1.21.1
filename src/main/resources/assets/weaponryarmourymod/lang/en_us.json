@@ -4,5 +4,7 @@
   "item.weaponryarmourymod.gilded_netherite_ingot": "Gilded Netherite Ingot",
 
   "block.weaponryarmourymod.diamond_iron_block": "Diamond-Iron Block",
-  "block.weaponryarmourymod.gilded_netherite_block": "Gilded Netherite Block"
+  "block.weaponryarmourymod.gilded_netherite_block": "Gilded Netherite Block",
+
+  "creativetab.weaponryarmourymod.weaponry_armoury_tab": "Weaponry & Armoury"
 }

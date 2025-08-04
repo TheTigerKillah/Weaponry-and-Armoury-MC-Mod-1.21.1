@@ -1,6 +1,7 @@
 package com.TheTigerKillah.WeaponryArmoury;
 
 import com.TheTigerKillah.WeaponryArmoury.block.ModBlocks;
+import com.TheTigerKillah.WeaponryArmoury.item.ModCreativeModeTab;
 import com.TheTigerKillah.WeaponryArmoury.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -36,6 +37,8 @@ public class Weaponry_Armoury {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTab.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -53,14 +56,11 @@ public class Weaponry_Armoury {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.DiamondClusteredIngot);
-            event.accept(ModItems.DiamondIronIngot);
-            event.accept(ModItems.GildedNetheriteIngot);
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.DiamondIronBlock);
-            event.accept(ModBlocks.GildedNetheriteBlock);
+
         }
     }
 
